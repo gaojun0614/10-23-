@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a{
+	color: #999;
+}
+a:hover {
+  color: #00B7FF;;
+}
+.header{
+	width: 100%;
+	height: 87px;
+}
+.header ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 20px;
+	margin-right: 14px;
+}
+.header ul li{
+		float: left;
+		font-weight: 700;
+    line-height: 24px;
+    margin-left: 20px;
+    font-size: 13px;
+    text-decoration: underline;
+}
+.header ul li.blue{
+		width: 60px;
+    height: 23px;
+    color: #fff;
+    background: #38f;
+    line-height: 24px;
+    font-size: 13px;
+    text-align: center;
+    font-weight: 400;
+    text-decoration: none;
+}
+.header ul li:hover{
+	color: #00B7FF;
+	cursor: pointer;
+}
+.blue:hover{
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+
+
+.con{
+	width: 100%;
+}
+.logo{
+	margin-bottom: 30px;
+}
+.logo img{
+	display: block;
+	width: 270px;
+  height: 129px;
+  margin:0 auto;
+}
+.fro{
+    background: #fff;
+    width: 610px;
+    height: 34px;
+    border: 1px solid #3385ff;
+    display: block;
+    margin: auto;
+    position: relative;
+    
+}
+input.sroch{
+	width: 520px;
+	height: 31px;
+	font-size: 20px;
+	border: 0;
+	
+}
+button{
+	float: right;
+	width: 90px;
+	height: 34px;
+	background-color: #3385ff;
+	color: #FFFFFF;
+	font-size: 14px;
+	border: 0;
+	position: absolute;
+}
+.xiang{
+	width: 32px;
+	height: 26px;
+	position: absolute;
+	right: 94px;
+	top: 4px;
+}
+.xiang:hover{
+	cursor: pointer;
+}
+
+
+.qrcodeCon{
+	width: 100%;
+	margin-top: 270px;
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+  font-weight: 700;
+}
+.qrcodeCon img{
+	width: 60px;
+	height: 60px;
+	margin: auto;
+	display: block;
+	margin-bottom: 6px;
+}
+
+
+
+.ftCon-Wrapper{
+	width: 100%;
+	margin-top: 25px;
+}
+.ftCon-Wrapper ul{
+	width: 400px;
+	list-style-type: none;
+	margin:0 auto;
+}
+.ftCon-Wrapper ul li{
+	float: left;
+	margin: auto;
+	margin-left: 25px;
+	color: #999;
+	font-size: 12px;
+	text-decoration: underline;
+}
+.clear{
+	clear: both;
+}
+.footer{
+	font-size: 12px;
+	color: #999;
+	text-align: center;
+}
+.footer img{
+	width: 10px;
+	height: 10px;
+}
